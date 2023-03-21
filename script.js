@@ -1,21 +1,11 @@
-/* Page-specific scripts */
+// This is a sample script file
+// You can use this file to add custom JavaScript code to your website
 
-/* Index page */
-if (document.body.classList.contains('index')) {
-  /* Add scripts for the index page here */
+console.log("Welcome to Tech Company!");
+
+// Example function to change the color of a button on click
+function changeButtonColor() {
+    const button = document.getElementById("myButton");
+    button.style.backgroundColor = "blue";
 }
 
-/* About page */
-if (document.body.classList.contains('about')) {
-  /* Add scripts for the about page here */
-}
-
-/* Services page */
-if (document.body.classList.contains('services')) {
-  /* Add scripts for the services page here */
-}
-
-/* Contact page */
-if (document.body.classList.contains('contact')) {
-  /* Add scripts for the contact page here */
-}
