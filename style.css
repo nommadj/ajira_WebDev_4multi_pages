@@ -1,28 +1,56 @@
-/* Reset default styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+/* This is an example stylesheet for Tech Company */
+
+/* Set the font family and color for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
 }
 
-/* Page-specific styles */
-
-/* Index page */
-body.index {
-  /* Add styles for the index page here */
+/* Style the header and navigation menu */
+header {
+    background-color: #f2f2f2;
+    padding: 10px;
 }
 
-/* About page */
-body.about {
-  /* Add styles for the about page here */
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
 }
 
-/* Services page */
-body.services {
-  /* Add styles for the services page here */
+nav li {
+    display: inline-block;
+    margin-right: 10px;
 }
 
-/* Contact page */
-body.contact {
-  /* Add styles for the contact page here */
+nav li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: #333;
+}
+
+nav a:hover {
+    background-color: #ddd;
+}
+
+/* Style the main content */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-top: 0;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
 }
